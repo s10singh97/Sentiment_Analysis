@@ -1,0 +1,9 @@
+Flask
+nltk
+plotly
+termcolor
+twython
+colorama
+flask_session
+passlib
+cs50

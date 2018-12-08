@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Word Checker
+{% endblock %}
+
+{% block main %}
+<div>
+    <form action="{{ url_for('emojis') }}" class="form-inline" method="get">
+        <div class="form-group">
+            <label class="sr-only" for="screen_name">Word</label>
+            <input class="form-control" name="word" placeholder="Single Word" type="text"/>
+        </div>
+        <button class="btn btn-default" type="submit">Check</button>
+    </form>
+</div>
+{% endblock %}

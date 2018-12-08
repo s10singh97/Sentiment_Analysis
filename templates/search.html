@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Search Result
+{% endblock %}
+
+{% block subtext %}
+@{{ screen_name }}&nbsp;<img src = "{{ photo }}" alt = "{{ screen_name }} + .jpg" />
+{% endblock %}
+
+{% block main %}
+<div>{{ chart | safe }}</div>
+{% endblock %}

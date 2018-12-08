@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Word Checker
+{% endblock %}
+
+{% block main %}
+<div>
+    {% if status > 0 %}
+        <img src="{{ url_for('static', filename='happy.png') }}" alt="happy" height="400" width="400" />
+    {% elif 0 > status %}
+        <img src="{{ url_for('static', filename='sad.png') }}" alt="sad" height="400" width="400" />
+    {% else %}
+        <img src="{{ url_for('static', filename='neutral.jpg') }}" alt="sad" height="400" width="400" />
+    {% endif %}
+</div>
+{% endblock %}

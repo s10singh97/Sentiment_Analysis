@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped" style="width:100%">
+      <tr>
+        <th>Twitter Handle</th>
+        <th>Positive Score</th>
+        <th>Negative Score</th>
+        <th>Neutral Score</th>
+        <th>Queried On</th>
+        <th>Change</th>
+      </tr>
+    {% for history in histories %}
+      <tr>
+        <td>{{ history.screenname }}</td>
+        <td>{{ history.positive }}</td>
+        <td>{{ history.negative }}</td>
+        <td>{{ history.neutral }}</td> 
+        <td>{{ history.transacted }}</td>
+        <td><img src = "{{ history.flag }}" alt=flag height="20" width="20"/></td>
+      </tr>
+    {% endfor %}
+    </table>
+    
+{% endblock %}
