@@ -9,6 +9,6 @@ Sentiment Analysis web app with command line interface
 
 # Steps to access command-line interface
 ## A. For last 50 tweets analysis:
-        **python tweets.py [twitter_id]**
-## B. For individual work sentiment analysis:
-        **python smile.py [word]**
+   **python tweets.py [twitter_id]**
+## B. For individual word sentiment analysis:
+   **python smile.py [word]**
