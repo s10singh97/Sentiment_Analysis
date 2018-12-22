@@ -264,3 +264,7 @@ def emojis():
     score = analyzer.analyze(request.args.get("word"))
 
     return render_template("emojis.html", status=score)
+
+
+if __name__ == __main__:
+    app.run()
