@@ -1,8 +1,8 @@
 # Sentiment_Analysis
 Sentiment Analysis web app with command line interface
 
-# Web-App live on:
-  [Sentiment Analysis](http://damp-harbor-16185.herokuapp.com/).
+## Web-App live on:
+  [Sentiment Analysis](http://damp-harbor-16185.herokuapp.com/)
 
 # Steps to open web app
 1. Git clone this repository
