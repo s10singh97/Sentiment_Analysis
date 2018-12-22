@@ -7,3 +7,4 @@ colorama
 flask_session
 passlib
 cs50
+gunicorn
